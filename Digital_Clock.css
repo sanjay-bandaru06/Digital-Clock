@@ -1,0 +1,33 @@
+body {
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+    .parent {
+        background-color: black;
+        box-shadow: 0px 0px 1px 2px orangered;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 15%;
+        cursor: pointer;
+    }
+
+    .parent:hover {
+        transform: scale(1.08);
+    }
+
+}
+
+.hours,
+.min,
+.sec {
+    color: orangered;
+    font-size: 70;
+    padding: 10px;
+
+}
